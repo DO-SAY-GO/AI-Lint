@@ -12,12 +12,12 @@ AI Lint is doctrine for AI coding agents. It externalizes senior engineering jud
 |-----------|-------------|
 | **Philosophy** | Core doctrine: clarity over cleverness, visible complexity, debuggable causality |
 | **Security baseline** | Agentic security doctrine (16 principles) |
-| **JavaScript doctrine** | 20 principles + known tensions |
-| **JavaScript rejects** | 19 rejected patterns (JS-R1 – JS-R19) |
+| **JavaScript doctrine** | 7 principles (sample from 20) |
+| **JavaScript rejects** | 6 rejected patterns (sample from 19) |
 | **Wiring prompts** | Ready-to-paste instructions for Cursor, Claude, Copilot |
 | **Override protocol** | How to consciously break rules |
 
-This is enough to wire an agent, see how AI Lint works, and decide if you want the full language/framework coverage.
+This is enough to wire an agent, see how AI Lint works, and decide if you want full coverage.
 
 ---
 
@@ -57,6 +57,7 @@ A properly wired agent should:
 The free edition covers JavaScript. Paid packs cover:
 
 **App Pack** ($49):
+- Full JavaScript: 20 principles + 19 rejects (vs 7/6 in free)
 - Node.js doctrine + 18 rejects
 - Python doctrine + 18 rejects
 - Java doctrine + 20 rejects
