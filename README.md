@@ -4,9 +4,11 @@
 
 AI Lint is doctrine for AI coding agents. It externalizes senior engineering judgment—so agents build code that fits the language, the framework, and your codebase.
 
-You spend a lot of time correcting bugs and anti-patterns that AI agents introduce. They grok syntax but don't get the deeper grain of a language. This creates technical debt that isn't solved with mechanical linters or typechecks. 
+AI models are great at syntax but terrible at taste. They invent unnecessary abstractions, hide complexity, and create technical debt that looks "correct" but rots quickly.
 
-The goal of AI Lint is to dramatically improve codebase quality, while reducing task time-to-completion for agentic coding. 
+AI Lint fixes this by injecting explicit architectural constraints into the agent's context.
+
+The goal of AI Lint is to dramatically improve codebase quality, while reducing task time-to-completion for agentic coding. It accomplishes this by reducing the cycle of generating, reviewing, rejecting, and prompting again. AI Lint constrains the search space so agents are more likely to get it right the first time.
 
 ---
 
