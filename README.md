@@ -1,8 +1,12 @@
 # AI Lint — Free Edition
 
-**Teach your AI agents the difference between "works" and "belongs."**
+**Teach your AI agents the difference between code that "works" and code that "belongs."**
 
 AI Lint is doctrine for AI coding agents. It externalizes senior engineering judgment—so agents build code that fits the language, the framework, and your codebase.
+
+You spend a lot of time correcting bugs and anti-patterns that AI agents introduce. They grok syntax but don't get the deeper grain of a language. This creates technical debt that isn't solved with mechanical linters or typechecks. 
+
+The goal of AI Lint is to dramatically improve codebase quality, while reducing task time-to-completion for agentic coding. 
 
 ---
 
