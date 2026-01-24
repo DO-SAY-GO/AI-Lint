@@ -5,20 +5,34 @@ This repository is governed by **AI Lint**.
 AI Lint teaches the difference between code that merely **works** and code that **belongs**.
 It is the authoritative source for idioms, semantics, architecture, and rejected patterns.
 
-## Required behavior (do this first)
+## ⚠️ MANDATORY: Read doctrine BEFORE making changes
 
-Before writing, modifying, or refactoring any code:
+**STOP.** Before writing, modifying, refactoring, or proposing ANY code changes:
 
-1. Read `.ai-lint/INDEX.md` to understand scope and navigation.
-2. Read `.ai-lint/PHILOSOPHY.md` for global doctrine.
-3. Identify relevant doctrine:
-   - Language doctrine: `.ai-lint/doctrine/languages/<language>.md`
-   - Framework doctrine (if applicable): `.ai-lint/doctrine/frameworks/<framework>.md`
-   - Library doctrine (if applicable): `.ai-lint/doctrine/libraries/*.md`
-4. Read rejects relevant to your work:
-   - `.ai-lint/rejects/languages/<language>.md` (if present)
-   - `.ai-lint/rejects/frameworks/<framework>.md` (if present)
-   - `.ai-lint/rejects/security.md` and `.ai-lint/rejects/debugging.md`
+You MUST actually read (using your file reading tool) these files:
+
+1. **`.ai-lint/INDEX.md`** — navigation and scope
+2. **`.ai-lint/PHILOSOPHY.md`** — governing principles
+3. **`.ai-lint/doctrine/architecture.md`** — complexity limits, state management (if present)
+4. **`.ai-lint/doctrine/languages/<language>.md`** — for the language you're working in
+5. **`.ai-lint/rejects/architecture.md`** — architectural anti-patterns (if present)
+6. **`.ai-lint/rejects/languages/<language>.md`** — patterns to refuse
+
+This is not optional. This is not "check if convenient." **Read the files.**
+
+### Triggers that REQUIRE reading doctrine:
+
+- Starting work on a new task
+- Proposing a refactor or architectural change
+- Adding new state, flags, or variables
+- Creating new files or modules
+- Any change touching >50 lines
+- When you notice complexity growing
+
+### How to confirm you've read doctrine:
+
+In your first response after reading, briefly note which doctrine files you consulted.
+Example: "Consulted: architecture.md (state limits), javascript.md (items 21-26 on enums over flags)"
 
 ## Authority rules (how to resolve conflicts)
 

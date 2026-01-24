@@ -5,9 +5,11 @@ This is the doctrine layer for this repository.
 ## Quick start for agents
 
 1. Read `PHILOSOPHY.md` — the governing principles
-2. Read `doctrine/languages/javascript.md` — what belongs (sample)
-3. Read `rejects/languages/javascript.md` — what to refuse (sample)
-4. Follow the override protocol if you need to break a rule
+2. Read `doctrine/architecture.md` — complexity management (preview)
+3. Read `doctrine/languages/javascript.md` — what belongs (sample)
+4. Read `rejects/architecture.md` — architectural anti-patterns (preview)
+5. Read `rejects/languages/javascript.md` — what to refuse (sample)
+6. Follow the override protocol if you need to break a rule
 
 ---
 
@@ -20,11 +22,13 @@ This is the doctrine layer for this repository.
 ├── INDEX.md               # This file
 │
 ├── doctrine/
+│   ├── architecture.md    # Complexity management (6 of 10 - preview)
 │   ├── languages/
 │   │   └── javascript.md  # JS doctrine (7 of 20 - sample)
 │   └── security.md        # Security doctrine (full)
 │
 ├── rejects/
+│   ├── architecture.md    # Architectural anti-patterns (6 of 10 - preview)
 │   ├── languages/
 │   │   └── javascript.md  # JS rejects (6 of 19 - sample)
 │   └── security.md        # Security rejects (full)
@@ -46,19 +50,20 @@ This is the doctrine layer for this repository.
 When rules conflict, apply this precedence:
 
 1. **Rejects** (strongest)
-2. **Framework doctrine** (not in free edition)
-3. **Language doctrine**
-4. **Core philosophy**
-5. **Generic best practices** (weakest)
+2. **Architecture doctrine** (complexity, state management)
+3. **Framework doctrine** (not in free edition)
+4. **Language doctrine**
+5. **Core philosophy**
+6. **Generic best practices** (weakest)
 
 ---
 
 ## Want full coverage?
 
-This free edition includes JavaScript only (7 doctrine, 6 rejects).
+This free edition includes JavaScript and architecture previews.
 
 Full packs include:
-- **App Pack**: JS (20+19), Node.js, Python, Java, Django, Spring
+- **App Pack**: JS (26+19), Node.js (20+18), Python, Java, Django, Spring, full architecture doctrine
 - **Systems Pack**: Go, Rust, C, C++, Assembly
 
-→ [ailint.dev](https://ailint.dev)
+→ [ai-lint.dosaygo.com](https://ai-lint.dosaygo.com)
