@@ -114,6 +114,20 @@ if (state === 'FIRST_READY_IN_HANDOFF') { ... }
 
 ---
 
+## AR-R7: Input Blocks Observation
+
+**Reject**:
+```javascript
+if (userIsTyping) return; // skip capture / parsing
+captureExternalOutput();
+```
+
+**Why it rots**: Output and input are independent streams. Blocking observation on input loses events and creates timing bugs that are impossible to reproduce.
+
+**Instead**: Always capture external output; defer **actions** (send, inject, commit) until input state allows.
+
+---
+
 *This is a preview. The full Architecture Rejects includes additional patterns: Timer Soup, God Objects, Comment Archaeology, and Late Extraction.*
 
 *Get the complete rejects at https://ai-lint.dosaygo.com*

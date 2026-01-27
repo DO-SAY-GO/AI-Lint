@@ -32,6 +32,11 @@ Code that works is not enough. Code must be **ownable**—understandable by one 
 **Why**: Long functions hide multiple responsibilities. "I need to read 100 lines to understand this."
 **Do**: Extract. Name the extracted function for what it does, not when it's called.
 
+## 7. Monotonic Observation
+**Reject**: Conditioning capture/processing of external output on local input state.
+**Why**: You silently drop or delay real events. Bugs become non-reproducible and “fixed” by timing.
+**Do**: Always observe and record external output when it arrives. Gate **actions** (injections, commits) on local input state, not observation.
+
 ---
 
 *This is a preview. The full Architecture Doctrine includes additional rules on dependency direction, timer accounting, synchronous initialization, feature flags, and complexity metrics tables.*
