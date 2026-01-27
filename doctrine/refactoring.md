@@ -4,7 +4,31 @@ How to approach large-scale refactoring with AI assistance.
 
 ---
 
-## 1. The Wrap-First Approach
+## 1. Propose Before Implementing
+
+When facing complex refactoring or cascading issues:
+
+1. **Stop and assess** - Don't patch reactively
+2. **Propose changes in writing** - Describe what you plan to change and why
+3. **Get human approval** - Verify the approach before touching code
+4. **Then implement** - With clear direction established
+
+**Why**: Prevents premature patches that add complexity without fixing root causes. Forces structural thinking before coding. Catches wrong assumptions before they become wrong code.
+
+```
+❌ Bad: "I see the bug, let me fix it" → patch → new bug → patch → mess
+✅ Good: "I see 3 issues. Here's my proposed approach..." → review → implement
+```
+
+This is especially important when:
+- A fix reveals deeper architectural problems
+- Multiple interacting systems are involved
+- The original design assumptions may be wrong
+- You've already made one fix that didn't work
+
+---
+
+## 2. The Wrap-First Approach
 
 When restructuring a large file with tangled dependencies:
 
@@ -32,7 +56,7 @@ This creates a clean boundary. All nested functions become closures with access 
 
 ---
 
-## 2. Extract to Temp File, Not In-Place
+## 3. Extract to Temp File, Not In-Place
 
 When reorganizing function order or extracting modules:
 
@@ -45,7 +69,7 @@ When reorganizing function order or extracting modules:
 
 ---
 
-## 3. State Centralization Before Extraction
+## 4. State Centralization Before Extraction
 
 Before extracting modules, centralize scattered state:
 
@@ -70,7 +94,7 @@ const state = {
 
 ---
 
-## 4. Feature Flags for Optional Complexity
+## 5. Feature Flags for Optional Complexity
 
 When code has optional features that add complexity:
 
@@ -92,7 +116,7 @@ if (state.enableUnblockSystem) {
 
 ---
 
-## 5. Module Extraction Pattern
+## 6. Module Extraction Pattern
 
 When extracting to a module:
 
@@ -116,7 +140,7 @@ function doThing() { feature.doThing(); } // stub
 
 ---
 
-## 6. Dead Code Identification
+## 7. Dead Code Identification
 
 Signs of dead code during refactoring:
 
@@ -130,7 +154,7 @@ Signs of dead code during refactoring:
 
 ---
 
-## 7. Verification Checkpoints
+## 8. Verification Checkpoints
 
 After each refactoring step:
 
