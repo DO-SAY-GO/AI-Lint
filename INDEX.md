@@ -62,8 +62,9 @@ When rules conflict, apply this precedence:
 
 This free edition includes JavaScript and architecture previews.
 
-Full packs include:
-- **App Pack**: JS (26+19), Node.js (20+18), Python, Java, Django, Spring, full architecture doctrine
-- **Systems Pack**: Go, Rust, C, C++, Assembly
+Full packs (self-contained ZIPs including full Architecture 15+11, Debugging 8+12, Refactoring 10, Cross-Cutting 6, and Security exhibits):
+- **App Pack** ($49 Personal / $299 Company): JavaScript (20+19), Node.js (20+18), Python (20+18), Java (20+20), Django (doctrine + 10 rejects + exhibits), Spring (doctrine + 10 rejects + exhibits)
+- **Systems Pack** ($49 Personal / $299 Company): Go (20+20), Rust (27+21), C (20+18), C++ (20+18), Assembly (20+15)
+- **Bundle** ($79 Personal / $499 Company): App Pack + Systems Pack in one self-contained ZIP
 
 → [ai-lint.dosaygo.com](https://ai-lint.dosaygo.com)

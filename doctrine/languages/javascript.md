@@ -52,4 +52,4 @@ The complete JavaScript doctrine includes:
 
 Plus Node.js, Python, Java, Django, and Spring.
 
-→ [Get the App Pack](https://ailint.dev)
+→ [Get the App Pack](https://ai-lint.dosaygo.com/buy/apps) · [Get the Bundle (Apps + Systems)](https://ai-lint.dosaygo.com/buy/bundle)
