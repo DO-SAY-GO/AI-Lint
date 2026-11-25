@@ -63,7 +63,7 @@ When rules conflict, apply this precedence:
 This free edition includes JavaScript and architecture previews.
 
 Full packs include:
-- **App Pack**: JS (26+19), Node.js (20+18), Python, Java, Django, Spring, full architecture doctrine
+- **App Pack**: JS (20+19), Node.js (20+18), Python, Java, Django, Spring, full architecture doctrine
 - **Systems Pack**: Go, Rust, C, C++, Assembly
 
 → [ai-lint.dosaygo.com](https://ai-lint.dosaygo.com)

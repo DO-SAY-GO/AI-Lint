@@ -42,3 +42,8 @@ Code that works is not enough. Code must be **ownable**—understandable by one 
 *This is a preview. The full Architecture Doctrine includes additional rules on dependency direction, timer accounting, synchronous initialization, feature flags, and complexity metrics tables.*
 
 *Get the complete doctrine at https://ai-lint.dosaygo.com*
+
+
+## Practical limits and reliable observation
+
+Treat size thresholds as prompts to review cohesion and ownership. Split distinct concerns, but keep cohesive code together when extraction adds indirection without clarity; document an override where required. Observe external events independently of whether local actions are allowed, and revalidate time-sensitive conditions when queued work is executed.

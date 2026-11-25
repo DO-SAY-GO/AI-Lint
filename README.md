@@ -31,11 +31,11 @@ This is enough to wire an agent, see how AI Lint works, and decide if you want f
 
 ```bash
 # 1. Clone or download this repo
-git clone https://github.com/yourorg/ai-lint.git
+git clone https://github.com/DO-SAY-GO/AI-Lint.git
 
 # 2. Copy into your project
 mkdir .ai-lint
-cp -r ai-lint/* .ai-lint/
+cp -r AI-Lint/* .ai-lint/
 
 # 3. Wire your agent (example: Cursor)
 cp .ai-lint/wiring/AGENTS.md .cursor/AGENTS.md
@@ -72,14 +72,15 @@ The free edition covers JavaScript. Paid packs cover:
 
 **Systems Pack** ($49):
 - Go doctrine + 20 rejects
-- Rust doctrine + 18 rejects
+- Rust doctrine + 21 rejects
+- Freelang doctrine, rejects, and checklist
 - C doctrine + 18 rejects
 - C++ doctrine + 18 rejects
 - Assembly doctrine + 15 rejects
 
-**Bundle** ($79): Both packs + all future packs
+**Bundle** ($79): Apps and Systems packs
 
-→ [Get the full packs](https://ailint.dev)
+→ [Get the full packs](https://ai-lint.dosaygo.com)
 
 ---
 
