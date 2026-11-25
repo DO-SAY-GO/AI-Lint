@@ -57,4 +57,4 @@ The complete JavaScript rejects include:
 
 Plus Node.js (18 rejects), Python, Java, Django, and Spring.
 
-→ [Get the App Pack](https://ailint.dev)
+→ [Get the App Pack](https://ai-lint.dosaygo.com)
