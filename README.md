@@ -16,12 +16,13 @@ The goal of AI Lint is to dramatically improve codebase quality, while reducing 
 
 | Component | Description |
 |-----------|-------------|
-| **Philosophy** | Core doctrine: clarity over cleverness, visible complexity, debuggable causality |
-| **Security baseline** | Agentic security doctrine (16 principles) |
-| **JavaScript doctrine** | 7 principles (sample from 20) |
-| **JavaScript rejects** | 6 rejected patterns (sample from 19) |
-| **Wiring prompts** | Ready-to-paste instructions for Cursor, Claude, Copilot |
-| **Override protocol** | How to consciously break rules |
+| **Philosophy & Checklist** | Core doctrine (`PHILOSOPHY.md`) and 30-second pre-flight scan (`CHECKLIST.md`) |
+| **Security baseline** | Full agentic security doctrine (16 principles + 16 rejects) |
+| **Architecture preview** | Complexity and state limits (6 of 15 principles + 6 of 11 rejects) |
+| **JavaScript sample** | 7 of 20 principles + 6 of 19 rejected patterns (`JS-R1` – `JS-R6`) |
+| **Refactoring preview** | 5 of 10 refactoring principles |
+| **Wiring prompts** | Ready-to-copy instructions for Cursor, Claude Code, GitHub Copilot, and generic agents |
+| **Override protocol** | How to consciously break rules (**Override / Reason / Risk / Mitigation**) |
 
 This is enough to wire an agent, see how AI Lint works, and decide if you want full coverage.
 
@@ -34,10 +35,11 @@ This is enough to wire an agent, see how AI Lint works, and decide if you want f
 git clone https://github.com/DO-SAY-GO/AI-Lint.git
 
 # 2. Copy into your project
-mkdir .ai-lint
+mkdir -p .ai-lint
 cp -r AI-Lint/* .ai-lint/
 
 # 3. Wire your agent (example: Cursor)
+mkdir -p .cursor
 cp .ai-lint/wiring/AGENTS.md .cursor/AGENTS.md
 ```
 
@@ -58,29 +60,29 @@ A properly wired agent should:
 
 ---
 
-## What's NOT in the free edition
+## What's in the paid editions
 
-The free edition covers JavaScript. Paid packs cover:
+Every paid download is a **self-contained ZIP** (including the full Base Module: all 15 Architecture principles + 11 rejects, full Security 16+16 + exhibits, full Debugging 8 principles + 12 rejects, full Refactoring 10 principles, 6 Cross-Cutting rejects, Override Protocol, Authoring guide, Wiring, `install.sh`, and commercial internal-use license):
 
-**App Pack** ($49):
+**App Pack** ($49 Personal / $299 Company):
 - Full JavaScript: 20 principles + 19 rejects (vs 7/6 in free)
-- Node.js doctrine + 18 rejects
-- Python doctrine + 18 rejects
-- Java doctrine + 20 rejects
-- Django framework doctrine + 10 rejects
-- Spring framework doctrine + 10 rejects
+- Node.js: 20 principles + 18 rejects
+- Python: 20 principles + 18 rejects
+- Java: 20 principles + 20 rejects
+- Django framework doctrine + 10 rejects + before/after exhibits
+- Spring framework doctrine + 10 rejects + before/after exhibits
 
-**Systems Pack** ($49):
-- Go doctrine + 20 rejects
-- Rust doctrine + 21 rejects
-- Freelang doctrine, rejects, and checklist
-- C doctrine + 18 rejects
-- C++ doctrine + 18 rejects
-- Assembly doctrine + 15 rejects
+**Systems Pack** ($49 Personal / $299 Company):
+- Go: 20 principles + 20 rejects
+- Rust: 27 principles + 21 rejects
+- C: 20 principles + 18 rejects
+- C++: 20 principles + 18 rejects
+- Assembly: 20 principles + 15 rejects
+- Freelang: doctrine, rejects, and review checklist
 
-**Bundle** ($79): Apps and Systems packs
+**Bundle** ($79 Personal / $499 Company): Both packs (all languages + frameworks + exhibits) in one self-contained ZIP.
 
-→ [Get the full packs](https://ai-lint.dosaygo.com)
+→ [Get the full packs at ai-lint.dosaygo.com](https://ai-lint.dosaygo.com) ([Bundle](https://ai-lint.dosaygo.com/buy/bundle) · [App Pack](https://ai-lint.dosaygo.com/buy/apps) · [Systems Pack](https://ai-lint.dosaygo.com/buy/systems))
 
 ---
 
