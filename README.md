@@ -78,9 +78,8 @@ Every paid download is a **self-contained ZIP** (including the full Base Module:
 - C: 20 principles + 18 rejects
 - C++: 20 principles + 18 rejects
 - Assembly: 20 principles + 15 rejects
-- Freelang: doctrine, rejects, and review checklist
 
-**Bundle** ($79 Personal / $499 Company): Both packs (all languages + frameworks + exhibits) in one self-contained ZIP.
+**Bundle** ($79 Personal / $499 Company): Both packs (all 9 languages + 2 frameworks + exhibits) in one self-contained ZIP.
 
 → [Get the full packs at ai-lint.dosaygo.com](https://ai-lint.dosaygo.com) ([Bundle](https://ai-lint.dosaygo.com/buy/bundle) · [App Pack](https://ai-lint.dosaygo.com/buy/apps) · [Systems Pack](https://ai-lint.dosaygo.com/buy/systems))
 
@@ -88,19 +87,20 @@ Every paid download is a **self-contained ZIP** (including the full Base Module:
 
 ## License
 
-The free edition is source-available for personal and evaluation use.
+The free edition is source-available for personal and evaluation use by individuals only (never free for corporate or internal team use).
 
 You may:
-- Use it to evaluate AI Lint
+- Use it to evaluate AI Lint as an individual
 - Apply it to personal projects
 - Modify it for your own personal use
 
 You may NOT:
+- Use for commercial, corporate, or internal team work
 - Redistribute or resell
 - Use to train AI/ML models
 - Use in commercial consulting/education offerings
 
-For commercial use with full language coverage, purchase a pack.
+For any company, commercial, or internal team use (plus full language and framework coverage), purchase a Personal Pack ($49/$79, 1 user) or Company License ($299/$499, single legal entity, unlimited internal users) at [ai-lint.dosaygo.com](https://ai-lint.dosaygo.com).
 
 ---
 
