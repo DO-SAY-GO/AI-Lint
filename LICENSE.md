@@ -3,8 +3,8 @@ Version 1.0
 
 Copyright (c) 2026 AI Lint
 
-Permission is hereby granted to any individual or organization to:
-- View, read, and use this material for personal or internal team use
+Permission is hereby granted to any individual to:
+- View, read, and use this material for personal or evaluation use
 - Fork or copy the repository for evaluation and non-commercial use
 - Share unmodified links to the original repository
 

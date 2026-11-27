@@ -88,12 +88,12 @@ Every paid download is a **self-contained ZIP** (including the full Base Module:
 
 ## License
 
-The free edition is source-available for evaluation and internal use.
+The free edition is source-available for personal and evaluation use.
 
 You may:
 - Use it to evaluate AI Lint
-- Apply it to personal/internal projects
-- Modify it for your own use
+- Apply it to personal projects
+- Modify it for your own personal use
 
 You may NOT:
 - Redistribute or resell
